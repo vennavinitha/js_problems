@@ -33,26 +33,28 @@ for(j=0;j<a.length;j++)
 
         print ovels count  ???
 
-        var a=["vinitha","madhu","riyansh"]
 
-for(j=0;j<a.length;j++)
-    {
+
+
+        var a=["vinitha","madhu","riyansh"]
+        var ovels="";
+        for(j=0;j<a.length;j++)
+        {
         var b=a[j];
-        
-         var ovels="";
+        var count=0;
+         
         for(i=0;i<b.length;i++)
         {
             if(b[i]=="a"||b[i]=="i"||b[i]=="e"||b[i]=="o"||b[i]=="u")
             {
-                ovels+=b[i];
+                count+=1;
             }
            
         }
-            console.log(ovels.split(''))
+          ovels+=count;
         }
+          console.log(ovels.split(''))  
 
 
-
-        o/p:[ 'i', 'i', 'a' ]
-            [ 'a', 'u' ]
-            [ 'i', 'a' ]
+     o/p:[ '3', '2', '2' ]
+        
