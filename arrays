@@ -1,0 +1,58 @@
+print ovels in array   ?
+
+
+
+var a=["vinitha","madhu","riyansh"]
+
+for(j=0;j<a.length;j++)
+    {
+        var b=a[j];
+        
+        var ovels="";
+        for(i=0;i<b.length;i++)
+        {
+            if(b[i]=="a"||b[i]=="e"||b[i]=="i"||b[i]=="o"||b[i]=="u")
+            {
+                ovels+=b[i]
+            }
+            
+        }
+        
+        console.log(ovels.split(""))     
+    
+        
+    }
+
+
+    o/p:[ 'i', 'i', 'a' ]
+        [ 'a', 'u' ]
+        [ 'i', 'a' ]
+
+
+
+
+        print ovels count  ???
+
+        var a=["vinitha","madhu","riyansh"]
+
+for(j=0;j<a.length;j++)
+    {
+        var b=a[j];
+        
+         var ovels="";
+        for(i=0;i<b.length;i++)
+        {
+            if(b[i]=="a"||b[i]=="i"||b[i]=="e"||b[i]=="o"||b[i]=="u")
+            {
+                ovels+=b[i];
+            }
+           
+        }
+            console.log(ovels.split(''))
+        }
+
+
+
+        o/p:[ 'i', 'i', 'a' ]
+            [ 'a', 'u' ]
+            [ 'i', 'a' ]
